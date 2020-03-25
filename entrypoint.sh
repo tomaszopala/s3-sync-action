@@ -1,4 +1,4 @@
-#!/bin/sh
+-#!/bin/sh
 
 set -e
 
@@ -19,7 +19,7 @@ fi
 
 # Default to us-east-1 if AWS_REGION not set.
 if [ -z "$AWS_REGION" ]; then
-  AWS_REGION="us-east-1"
+  AWS_REGION="eu-west-2"
 fi
 
 # Override default AWS endpoint if user sets AWS_S3_ENDPOINT.
